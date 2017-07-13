@@ -25,6 +25,7 @@ products = [
 ] # Products based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping
 
 while True:
+    
         product_id = input("Please input a product identifier, or 'DONE' if there are no more items:")
         if product_id: "DONE"
         print("Thanks for shopping with us!")
