@@ -25,6 +25,10 @@ products = [
 ] # Products based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping
 
 
-product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items:")
-
-print("The product identifier is: ", str(product_id))
+while True:
+    product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items:")
+    if product_id == "DONE":
+        print("Thanks! All done here!")
+        break
+    else:
+        print("The product identifier is: ", str(product_id))
