@@ -24,8 +24,7 @@ products = [
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
 ] # Products based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping
 
-while True:
-    
-        product_id = input("Please input a product identifier, or 'DONE' if there are no more items:")
-        if product_id: "DONE"
-        print("Thanks for shopping with us!")
+
+product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items:")
+
+print("The product identifier is: ", str(product_id))
