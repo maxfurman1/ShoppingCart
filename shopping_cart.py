@@ -35,6 +35,10 @@ while True:
     product_id = input("Please input a product identifier, or 'DONE' if there are no more items: ")
     if product_id == "DONE":
         break
+    elif (int(product_id) > 20):
+        print ("Unknown Product. Please enter an indentifier between 1 and 20.")
+    elif (int(product_id) == 0):
+        print ("Unknown Product. Please enter an indentifier between 1 and 20.")
     else:
         product_ids.append(int(product_id))
 
